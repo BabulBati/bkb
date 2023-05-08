@@ -1,0 +1,167 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Poppins:wght@100;200;300;400;500;600;700;800&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: #eff7ff;
+}
+
+h1,
+h2 {
+  color: #869bb3;
+}
+
+h3,
+h4 {
+  color: #b39d86;
+}
+
+a {
+  text-decoration: none;
+  color: #b39d86;
+}
+
+.navbar {
+  background-color: #bfcfff;
+}
+.navbar .navbar-brand {
+  font-size: 24px;
+  font-weight: 700;
+  color: #b39d86;
+}
+.navbar .nav-link {
+  font-weight: 600;
+  color: #b39d86;
+  padding: 2px;
+}
+.navbar .nav-link:hover, .navbar .active {
+  color: #869bb3 !important;
+  border-bottom: 2px solid #b39d86;
+}
+
+section {
+  padding: 60px 0px;
+}
+
+#home {
+  background-image: url(../img/1.JPG);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+}
+#home::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+#about .row {
+  text-align: center;
+}
+#about .row .bi-lightbulb {
+  color: rgba(255, 255, 0, 0.7);
+}
+#about .row .bi-pencil-square {
+  color: rgba(0, 0, 255, 0.7);
+}
+#about .row .bi-cash-coin {
+  color: rgba(172, 255, 47, 0.8);
+}
+#about .row .bi-lock {
+  color: rgba(255, 0, 0, 0.6);
+}
+#about .bi {
+  font-size: 74px;
+}
+
+#blog img {
+  width: 100%;
+  height: 50%;
+  opacity: 0.5;
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
+}
+#blog img:hover {
+  opacity: 1;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
+}
+#blog .blog-box {
+  padding: 10px;
+}
+
+.box {
+  position: relative;
+  overflow: hidden;
+}
+
+#portfolio img {
+  width: 100%;
+  height: 100%;
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
+}
+#portfolio .demo {
+  position: relative;
+}
+#portfolio .demo:hover a {
+  opacity: 1;
+}
+#portfolio .demo:hover img {
+  -webkit-transform: scale(1.07);
+          transform: scale(1.07);
+  opacity: 0.8;
+}
+#portfolio a {
+  position: absolute;
+  top: 40%;
+  left: 40%;
+  opacity: 0;
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
+}
+
+#contact a {
+  color: black;
+}
+#contact .bi {
+  color: #b39d86;
+}
+
+footer {
+  text-align: center;
+  background-color: #bfcfff;
+  padding: 10px 0px;
+}
+footer p {
+  padding: 0px;
+  margin: 0px;
+}
+
+.bor {
+  border: 1px solid #000;
+}
+
+.tbor {
+  border-bottom: 3px solid #b39d86;
+}
+
+.head {
+  text-align: center;
+  padding: 10px 0px;
+  margin: 5px 0px;
+}
+.head h2 {
+  padding-bottom: 15px;
+}/*# sourceMappingURL=style.css.map */
